@@ -1,0 +1,267 @@
+Multi-purpose Programming Language
+	Desktop Application 
+	MS Office
+	Gaming App
+	Web App
+	ML App
+	IOT App
+	
+
+Translator -> High level to Low level
+	Compiler
+	Interpreter
+	Assembler --> Assembly to Machine
+Introduction to Python
+	Simple and Easy to learn
+	Multipurpose programming language
+	Scripting language
+	Dynamic typing
+	Functional, Procedural & Object oriented
+Limitation
+	Performance
+	Mobile Application
+	Memory Occupancy
+	Backward compatability
+
+Difference between Python 2 & Python 3
+
+Print is a statement in Python 2 whereas it is a function in Python 3.
+xrange() in Python 2 is replaced by range() in Python 3.
+Introduction of “as” keyword in exception handling in Python 3.
+ASCII in Python 2 whereas UNICODE in Python 3.
+
+Constants - user's data
+Variables - 
+keywords -
+data types
+
+Identifier - user defined word
+	variable name
+	object reference
+	class name
+	module name
+	package name
+
+Variable - one kind of identifer
+
+Variabe - Data Only
+	a  = 10
+
+Object - 
+	1. State - Data
+	2. Behaviour - Method (function)
+	3. Identity
+
+a = b = c = 10 => Assigning single value to multiple variables
+
+a, b, c = 10, 20, 30 => Assigning multiple values to multiple variables
+
+id(a) --> returns address of the variable
+
+type(a) --> returns the class type to which the value stored belongs
+
+To display keywords in Python 
+import keyword
+print (keyword.kwlist)
+
+Keywords
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+OOPs
+_variablename(Private)
+__variablename(Strongly private)
+
+In C Programming
+	int a = 10; // 4 - 32 bit compiler
+
+	-2147483648 to 2147483647
+
+	long long int a; // 8 bytes
+
+		a=9943115155
+Python
+
+In general all numerical data types will accept signed values
+
+int 
+Number systems
+1. Decimal (0-9) : Base 10
+	a = 10
+
+2. Octal (0-7) : Base 8
+	a = 0O10
+
+3. Hexa Decimal (0-9 + a-f) : Base 16
+	a = 0x10
+4. Binary (0,1) : Base 2
+
+#x=10 - Decimal integer
+#x=0O10 Octal integer
+#x=0x1a Hexa decimal
+#x=0b1010 binary integer
+
+float
+	score = 9.9
+complex
+	a+bi
+
+	a+bj
+	10+5j
+
+bool - True or False
+
+char - not in python
+
+
+String
+A String is a sequence of characters in python.
+It can be enclosed in single, double or triple quotes.
+We can access characters of string by using its index
+Starting index is 0.
+And also python provides way to access string from end whose index starts with -1.
+We can also access the substrings of a given string using slice operator [] or [:]
+
+str  -> your password or your email id
+	'akash@143'
+	"akash@143"
+	"""akash@123"""
+
+print (''''Raghava' is sooo handsome"''')
+
+print(""""Rakshith" is soooo 'handsome'""")
+
+manvith = """He is very talented. 
+He is smart and cute.
+He is having so many girl friends"""
+name = "Y o s u f"
+
+slice operator
+	[<startIndex>:<endIndex>:<stepIndex>]
+
+Repetition
+*
+Concatenation
++
+
+
++
+
+Operators
+Arithmetic 
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+// Floor division
+% Modulus
+** - power 
+
+Relational or comparision
+> Greater than
+>= Greater than or equal to
+< less than
+<= Less than or equal to
+== equal to
+!= not equal to
+
+Logical 
+and
+or
+not
+
+Bitwise or bit manipulation
+&	- AND
+	x = 10
+	y = 7
+	z = x & y
+		x = 	1010
+		y = 	0111
+			------
+			0010
+
+|	- OR
+	x = 10
+	y = 7
+	z = x | y
+		x = 	1010
+		y = 	0111
+			------
+			1111
+^	- XOR
+	x = 10
+	y = 7
+	z = x ^ y
+		x = 	1010
+		y = 	0111
+			------
+			1101
+~	- NOT, 1's complement or negation
+x=10
+y = ~x
+
+>>	- right shift
+	a = 20
+	b=a>>3
+
+	0000 0000
+	0001 0100		= a
+	0000 0010		= b
+
+<<	- left shift
+	a = 20
+	b= a<<3
+	0000 0000
+	0001 0100		= a
+             	1010 0000		= b
+
+Assignment operators
+	simple
+		=
+	compound or shorthand
+	+=, -=, *=, /=,//=, %= **=
+	&= , |=, ^=, >>=, <<=
+
+	a = a + b	==> a+=b
+
+	age = 70
+	age+=1
+
+Membership 
+	in
+	not in
+
+Identity operators
+	is
+	is not
+
+Interactive mode
+Script mode
+
+Input& Output statements
+
+input()
+Syntax:
+	input(<prompt>)
+
+Type conversion function 
+int()
+float()
+complex()
+bool()
+str()
+oct()
+bin()
+hex()
+
+Output statement
+	print()
+Syntax:
+	print (*obj, sep=" ", end="\n",file=sys.stdout, flush=False)
+where
+obj - object to the printed. * indicates that there may be more than one object
+sep - objects are separated by sep. Default value: ' '
+end - end is printed at last
+file - must be an object with write(string) method. If omitted it, sys.stdout will be used which prints objects on the screen.
+flush - If True, the stream is forcibly flushed. Default value: False
+Note: sep, end, file and flush are keyword arguments. If you want to use sep argument, you have to use:
+
