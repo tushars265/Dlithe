@@ -25,7 +25,7 @@ Control Structures
 				<statements>
 		else:
 			<statements>
-
+edit 5
 	Week Day Number : 1-7
 		1 - > "Its Monday.. Week day started"
 		2-4 -> "Still week days only"
@@ -298,4 +298,5 @@ list comprehension with if statement
 
 list comprehension with if ... else ... statement
 <list_obj> = [<expr>  if  <condition> else <expr> for <iter_variable> in <iterator> ]
+
 
