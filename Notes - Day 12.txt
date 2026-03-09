@@ -25,7 +25,6 @@ Control Structures
 				<statements>
 		else:
 			<statements>
-
 edit 5
 edit 3
 	Week Day Number : 1-7
