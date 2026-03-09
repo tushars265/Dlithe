@@ -8,10 +8,10 @@ Control Structures
 		[else:
 		     <statements>]
 
-	elif - statement
+	elif - statement      ======= edit1
 		if <condition1>:
 			<statements>
-		elif <condition2>:
+		elif <condition2>: ==== edit2
 			<statements>	
 		elif <condition3>:
 			<statements>
