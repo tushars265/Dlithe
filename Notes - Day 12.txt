@@ -26,6 +26,7 @@ Control Structures
 		else:
 			<statements>
 edit 5
+edit 3
 	Week Day Number : 1-7
 		1 - > "Its Monday.. Week day started"
 		2-4 -> "Still week days only"
